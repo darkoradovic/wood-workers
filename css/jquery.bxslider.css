@@ -11,10 +11,6 @@
   touch-action: pan-y;    
 }
 
-element.style{
-    max-width: 2000px;
-}
-
 .bx-wrapper img {
   max-width: 100%;
   display: block;

@@ -121,9 +121,24 @@ section{
 
 #info{
     margin-right: 100px;
-    width: 500px;
+    width: 550px;
     float: left;
     margin-bottom: 50px
+}
+
+#info img{
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+
+#infoList{
+    margin-top: 50px
+}
+
+.fa-arrow-alt-circle-right{
+    margin: 0 10px 0 165px;
+    color: #C69453;
 }
 
 #info li{
@@ -135,11 +150,53 @@ section{
     margin-right: 8px;
 }
 
-#form{
+.contact-form{
     float: left;
-    width:600px ;
-    height: 300px;
-    background-color: aqua
+    width:500px ;
+    height: 500px;
+    background-image: url(img/woodb.jpg);
+    margin-top: 40px;
+}
+
+form{
+    margin-top: 80px;
+    transition: all 4s ease-in-out;
+}
+
+.form-control{
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 16px;
+    margin-left: 50px;
+}
+
+input{
+    height: 45px;
+}
+
+::placeholder{
+    color: #fff;
+    opacity: 0.6;
+}
+
+form .submit{
+    background: #ff5722;
+    border-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 50px;
+}
+
+form .submit:hover{
+    background-color: #f44336;
+    cursor: pointer;
 }
 
 #service{
@@ -313,7 +370,12 @@ section{
 }
 
 #ourWorkGallery{
-       
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.bx-wrapper{
+    max-width: 100% !important;
 }
 
 #us{
@@ -330,6 +392,7 @@ section{
     float: left;
     margin-top: 70px;
     border: 2px solid rgba(0,0,0,0.3);
+    cursor: pointer;
 }
 
 .beefup__head{
@@ -606,6 +669,154 @@ footer{
     margin: 0;
 }
 
+/*    --------RESPONSIVE--------*/
+
+
+
+@media screen and (min-width: 993px) and (max-width: 1200px){
+    .wrap{
+        width: 960px;
+    }
+    
+    #info{
+    width: 350px;
+}
+
+#info img{
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+
+#infoList{
+    margin-top: 50px
+}
+
+.fa-arrow-alt-circle-right{
+    margin: 0 10px 0 0px;
+}
+
+    .respMove{
+        margin-left: 26px;
+    }
+
+
+.panel{
+    width: 200px;
+}
+.panel2{
+    width: 200px;
+    margin: 0 53px;
+}
+.panel4{
+    width: 200px;
+    height: 350px;
+    margin-left: 53px;
+}
+
+#us{
+    clear: both;
+    height: 500px
+}
+
+#usPic img{
+    float: left;
+    width: 500px;
+    margin-top: 167px;
+}
+
+#contentText::after{
+    content: '';
+    position: absolute;
+    bottom: -64px;
+    left: 500px;
+}
+
+#contentText::before{
+    content: '';
+    position: absolute;
+    left: 500px;
+}
+
+#news{
+    height: 400px; 
+}
+
+.num{
+    margin: 96px 78px;
+}
+    
+    #news{
+    height: 1000px;
+    background-color: rgba(198,148,83,0.11);
+}
+
+#news1{
+    width: 400px;
+    float: left;
+    margin-top: 120px;
+}
+
+#news1 p, #news2 p, #news3 p{
+    margin-bottom: 40px;
+}
+
+#news2{
+    width: 400px;
+    float: right;
+    margin-top: 120px;
+    margin: 120px 0px 0 150px;
+}
+
+#news3{
+    width: 400px;
+    float: left;
+    margin-top: 120px;
+}
+
+.btn a:visited,btn a:hover,{
+    color: black;
+}
+
+.btn a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn{
+    background-color: #C69453;
+    padding: 10px 15px;
+    border-radius: 15px 0;
+}
+
+        
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px){
+    .wrap{
+        width: 720px;
+    
+
+
+}
+
+
+@media screen and (min-width: 577px) and (max-width: 768px){
+    .wrap{
+        width: 540px;
+  
+
+    
+}
+
+@media screen and (max-width: 576px){
+    .wrap{
+        width: 80%;
+    }
+    
+  
+    
+}
 
 
 

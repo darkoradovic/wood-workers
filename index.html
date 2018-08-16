@@ -1,11 +1,11 @@
 <!doctype html>
 <html>
 <head>
-    <title>wood</title>
+    <title>Wood-Works</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <link href="style.css" rel="stylesheet">
-    <link rel="shortcut icon"  href="images/n-logo.png" />
+    <link rel="shortcut icon"  href="img/titleImg.png" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500i,900" rel="stylesheet">
     <link href="css/lightbox.css" rel="stylesheet">
@@ -56,22 +56,31 @@
         <div class="wrap">
             <div id="info">
                 <h1>15 YEARS OF WOODWORKER</h1>
-
+                <img src="img/infoImg.jpg">
                 <p>Since our beginning in 1999, we have worked tirelessly to earn our reputation for quality, service and dependability.
 
                     For over 15 years these founding priciples have helped us succeed in creating prestigious architectural woodwork projects on a global scale. Our expert staffs provides a superior level of service.</p>
-                <ul>
-                     <li>Highly professional staff .</li>
-                     <li>Using the latest machanical system.</li>
-                     <li>The certified materials in a timely.</li>
-                     <li>We provide the most reasonable cost.</li>
-                     <li>Design team with the best possible interpretation.</li>
-                     <li>Following the global design tendency.</li>
-                     <li>Undertake to meet the deadline.</li>
-                </ul>    
+                <div id="infoList">
+                <p><i class="fas fa-arrow-alt-circle-right"></i>Highly professional staff.</p>
+                <p><i class="fas fa-arrow-alt-circle-right"></i>Using the latest machanical system.</p>
+                <p><i class="fas fa-arrow-alt-circle-right"></i>The certified materials in a timely.</p>
+                <p><i class="fas fa-arrow-alt-circle-right"></i>We provide the most reasonable cost.</p>
+                    <p><i class="fas fa-arrow-alt-circle-right"></i>Design team with the best possible <span class="respMove">interpretation.</span></p>
+                <p><i class="fas fa-arrow-alt-circle-right"></i>Following the global design tendency.</p>
+                <p><i class="fas fa-arrow-alt-circle-right"></i>Undertake to meet the deadline.</p>
+                </div>
             </div>
-            <div id="form">
-                
+            <div class="contact-form">
+                <form id="contact-form" method="post" action="contact-form-handler.php">
+                    <input name="name" type="text" class="form-control" placeholder="Your Name" required>
+                    <br>
+                    <input name="email" type="email" class="form-control" placeholder="Your Email" required>
+                    <br>
+                    <textarea name="message" class="form-control" placeholder="Your Message" rows="4" required></textarea>
+                    <br>
+                    <input type="submit" class="form-control submit" value="SEND MESSAGE">
+                    
+                </form>
             </div>
         </div>
     </section>
@@ -121,11 +130,11 @@
             </div>
             <div id="workNav">
                 <ul>
-                <li><button onclick="show()">ALL</button></li>
-                <li><button onclick="show()">DESIGN</button></li>
-                <li><button onclick="show()">FURNITURE</button></li>
-                <li><button onclick="show()">INTERIOR</button></li>
-                <li><button onclick="show()">WORK</button></li>
+                <li><button>ALL</button></li>
+                <li><button>DESIGN</button></li>
+                <li><button>FURNITURE</button></li>
+                <li><button>INTERIOR</button></li>
+                <li><button>WORK</button></li>
             </ul>
             </div>
         </div>
@@ -248,7 +257,8 @@
                 </div>
                 <div id="office">
                     <h1>OUR OFFICE</h1>
-                        <p><i class="fas fa-map-marker-alt"></i>14 Tottenham Road, London, England.</p>
+                        <p><i class="fas fa-map-marker-alt"></i>718 Windsor Road
+                            HEMEL HEMPSTEAD HP49 </p>
                         <p><i class="fas fa-phone"></i>+381 62 5584 44</p>
                         <p><i class="fas fa-clock"></i>Mon - Fri: 9:00 - 18:00</p>
                         <p><i class="fas fa-envelope"></i>info@office.com</p>
