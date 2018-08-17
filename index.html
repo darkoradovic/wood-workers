@@ -34,8 +34,13 @@
         <div id="logo">
             <img src="img/logo.png">
         </div>
-        <div id="nav">
+            <div id="burger">
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+            </div>
+        <div id="nav" class="sidenav">
+            
             <ul>
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                 <li><a href="#">Info</a></li>
                 <li><a href="#">Services</a></li>
                 <li><a href="#">Our work</a></li>
@@ -55,11 +60,11 @@
     <section>
         <div class="wrap">
             <div id="info">
-                <h1>15 YEARS OF WOODWORKER</h1>
+                <h1>19 YEARS OF WOODWORKER</h1>
                 <img src="img/infoImg.jpg">
                 <p>Since our beginning in 1999, we have worked tirelessly to earn our reputation for quality, service and dependability.
 
-                    For over 15 years these founding priciples have helped us succeed in creating prestigious architectural woodwork projects on a global scale. Our expert staffs provides a superior level of service.</p>
+                    For over 19 years these founding priciples have helped us succeed in creating prestigious architectural woodwork projects on a global scale. Our expert staffs provides a superior level of service.</p>
                 <div id="infoList">
                 <p><i class="fas fa-arrow-alt-circle-right"></i>Highly professional staff.</p>
                 <p><i class="fas fa-arrow-alt-circle-right"></i>Using the latest machanical system.</p>
@@ -132,9 +137,9 @@
                 <ul>
                 <li><button>ALL</button></li>
                 <li><button>DESIGN</button></li>
-                <li><button>FURNITURE</button></li>
-                <li><button>INTERIOR</button></li>
-                <li><button>WORK</button></li>
+                <li><button class="thirth">FURNITURE</button></li>
+                <li><button class="fourth">INTERIOR</button></li>
+                <li><button class="fifth">WORK</button></li>
             </ul>
             </div>
         </div>
