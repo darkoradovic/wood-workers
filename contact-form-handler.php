@@ -1,6 +1,6 @@
 <?php
 
-   $email_form = 'EasyTutorial@jkj.com';
+   $email_form = 'Me@jkj.com';
 
     $email_subject = "New Form Submission";
 

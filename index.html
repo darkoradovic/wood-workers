@@ -41,11 +41,11 @@
             
             <ul>
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <li><a href="#">Info</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Our work</a></li>
-                <li><a href="#">Why us?</a></li>
-                <li><a href="#">News</a></li>
+                <li><a href="#info">Info</a></li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="#ourWork">Our work</a></li>
+                <li><a href="#us">Why us?</a></li>
+                <li><a href="#news">News</a></li>
             </ul>
         </div>
         </div>
@@ -286,6 +286,7 @@
     <script src="js/jquery.waypoints.min.js"></script>
     <script src="js/jquery.counterup.min.js"></script>
     <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.smoothscroll.min.js"></script>
     
     <script>
         $('.number').counterUp({
@@ -308,6 +309,9 @@
         });
     </script>
     
+    <script>
+         $('html').smoothScroll(1000);
+    </script>
     
     
 </body>
