@@ -1398,6 +1398,11 @@ form{
         height: 180px;
     }
     
+    #logo{
+        width: 100%;
+        text-align: center;
+    }
+    
     #topInfo{
     line-height: 40px;
     float: left;
