@@ -28,11 +28,11 @@
 //NAVIGATION
 
 function openNav() {
-    document.getElementById("nav").style.width = "250px";
+    document.getElementById("mySidenav").style.width = "250px";
 }
 
 function closeNav() {
-    document.getElementById("nav").style.width = "0";
+    document.getElementById("mySidenav").style.width = "0";
 }
 
     

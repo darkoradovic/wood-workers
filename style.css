@@ -59,6 +59,10 @@ header{
     display: none;
 }
 
+#mySidenav{
+    display: none;
+}
+
 #nav{
     float: right; 
 }
@@ -685,6 +689,8 @@ footer{
         width: 960px;
     }
     
+   
+    
     #info{
     width: 350px;
 }
@@ -809,10 +815,7 @@ footer{
         width: 720px;
     }
     
-    .closebtn{
-    display: block;
-    text-decoration: none;
-}
+    
 
     #burger{
         display: block;
@@ -820,13 +823,17 @@ footer{
         margin-top: 40px
     }
 
-#nav{
-    float: right; 
-}
+    #nav{
+        display: none;
+    }
     
-    #nav {
+    #mySidenav{
+        display: block;
+    }
+
+    .sidenav {
     height: 100%;
-    width: 0;
+    width: 200px;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -835,48 +842,29 @@ footer{
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
-        opacity: 0.9;
 }
-    
-    #nav ul li {
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
     color: #818181;
     display: block;
     transition: 0.3s;
-    padding-left: 30px;
 }
-    
-    #nav .closebtn {
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
     position: absolute;
     top: 0;
-    font-size: 45px;
-    margin-left: 30px;
-    color: #fff;
+    left: -50px;
+    font-size: 36px;
+    margin-left: 50px;
 }
 
-#nav ul{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-
-#nav ul li a{
-    display: block;
-    width: 250px;
-    height: 80px;
-    padding: 0;
-    text-decoration: none;
-    color: #fff;;
-    font-weight: bolder;
-    position: relative;
-    text-align: left;
-}
-
-#nav ul li:nth-child(2n){
-    margin-left: 0;
-}
 
     section{
     height: 1200px;
@@ -1084,6 +1072,45 @@ form{
     #topHeader{
         height: 120px;
     }
+    
+    #mySidenav{
+        display: block;
+    }
+
+    .sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    left: -50px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
     
     #topInfo{
     line-height: 40px;
@@ -1397,6 +1424,45 @@ form{
      #topHeader{
         height: 180px;
     }
+    
+    #mySidenav{
+        display: block;
+    }
+
+    .sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    left: -50px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
     
     #logo{
         width: 100%;
