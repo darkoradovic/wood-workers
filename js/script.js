@@ -25,6 +25,8 @@
   });
 });
 
+
+
 //NAVIGATION
 
 function openNav() {

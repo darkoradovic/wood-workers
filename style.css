@@ -122,6 +122,15 @@ header{
     background-image: url(img/p1.jpg);
     background-size: cover;
     background-attachment: fixed;
+    position: relative;
+}
+
+#heroText{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
 }
 
 section{

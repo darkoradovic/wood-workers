@@ -38,7 +38,7 @@
                 <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
             </div>
         <div id="nav" class="sidenav">
-            
+             
             <ul>
                 
                 <li><a href="#info">Info</a></li>
@@ -62,8 +62,9 @@
     <div id="hero">
         <div class="wrap">
         <div id="heroText">
-        
+            <h1 class="type"></h1>
         </div>
+    
         </div>    
     </div>
     <section>
@@ -283,7 +284,7 @@
     <footer>
         <div class="wrap">
             <div id="footerInfo">
-                <p>Copyright &copy; Darko Radovic 2018</p>
+                <p>Copyright &copy; Darko Radovic 2019</p>
             </div>
         </div>
     </footer>
@@ -296,6 +297,7 @@
     <script src="js/jquery.counterup.min.js"></script>
     <script src="js/jquery.bxslider.js"></script>
     <script src="js/jquery.smoothscroll.min.js"></script>
+    <script src="js/typed.js"></script>
     
     <script>
         $('.number').counterUp({
@@ -315,12 +317,23 @@
             pager: false,
             auto: true
           });
+            
+             var typed = new Typed(".type", {
+                strings: ["Construction. Design. Build.", "Don’t just build… Create.", "Let’s get hammered."],
+                typeSpeed: 80,
+                backSpeed: 80,
+                loop: true
+            });
+            
         });
     </script>
     
     <script>
          $('html').smoothScroll(1000);
     </script>
+    
+    
+   
     
     
 </body>
